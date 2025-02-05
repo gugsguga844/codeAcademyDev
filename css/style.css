@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+#header-menu {
+    background-color: black;
+    height: 48px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+#navbar-header {
+    padding-left: 0;
+}
+
+.navbar-ul {
+    display: flex;
+    list-style: none;
+}
+
+#logo {
+    max-height: 35px;
+}
+
+.header-item {
+    display: inline-block;
+    margin: 5px;
+}
