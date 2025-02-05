@@ -3,7 +3,7 @@
 }
 
 #header-menu {
-    background-color: black;
+    background-color: #3232fc;
     height: 48px;
     color: white;
     display: flex;
@@ -11,6 +11,7 @@
     justify-content: space-between;
     padding-right: 16px;
     padding-left: 16px;
+    font-weight: bold;
 }
 
 #navbar-header {
@@ -27,6 +28,7 @@
 }
 
 .header-item {
-    display: inline-block;
     margin: 5px;
+    display: flex;
+    align-items: center;
 }
