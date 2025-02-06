@@ -1,0 +1,19 @@
+<progress>barra de progresso</progress>
+
+<div id="image">ou body</div>
+CSS: background-image: url() e background-size: cover
+
+position absolute deixa o elemento solto na tela, obedecendo apenas ao body ou ao pai dele se o pai dele tiver position relative
+
+O atributo id serve como identificação para um elemento que é único dentro de uma página, que possui estilizações e funcionalidades próprias, enquanto o class utiliza-se em casos de repetição de elementos iguais, que possuem a mesma estilização por exemplo:
+<li class="menu">
+<li id="middle-li" class="menu">
+<li class="menu">
+Aqui podemos trabalhar todos os <li> por meio de "menu" e podemos trabalhar o <li> que possui id individualmente.
+
+As TAGS semânticas são úteis para quando a página possui uma divisão clara e importante entre o posicionamento dos conteúdos, cada uma tem seu lugar de utilização na página.
+<header>: É o cabeçalho de nossa página, muito útil para barras de navegação, títulos e subtítulos do conteúdo da página.
+<nav>: Muito útil para barras de navegação, uma vez que é um agrupamento de links comumente feitos por meio de listas, que servem para nos levar a diferentes páginas.
+<section>: Similar a <div>, mas utilizado mais para definir seções dentro de uma página, geralmente com um título, por exemplo: Seção dos Esportes, Seção da Moda.
+<article>: É destinado à um conteúdo independente de uma página, por exemplo: o post de um blog ou o conteúdo de uma notícia.
+<footer>: É o rodapé da página, geralmente possui informações de contato, citações e outras informações geralmente "extras".
