@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(../../img/fundo-pintado-de-cinza_53876-94041.avif);
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#header-menu {
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-weight: bold;
+}
+
+#main-item {
+    font-size: 2rem;
+}
+#rbr {
+    color: red;
+    font-size: 42px;
+}
+#store {
+    color: yellow;
+    font-size: 42px;
+}
+
+.navbar-ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+
+.header-item {
+    font-size: 1rem;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header-item button {
+    background-color: red;
+    border: 0;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: white;
+    width: 60px;
+    font-weight: bold;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+#header-section {
+    height: calc(100vh - 50px);
+    display: flex;
+}
+
+#header-section-description {
+    width: 60%;
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    margin-left: 16px;
+}
+
+h1 {
+    color: white;
+}
+
+#Red {
+    color: red
+}
+#Racing {
+    color: yellow;
+}
+
+#header-section-models {
+    width: 40%;
+    display: flex;
+    justify-content: right;
+}
+
+
+main {
+    background-color: white;
+}
+
