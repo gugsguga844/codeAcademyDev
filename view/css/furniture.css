@@ -1,13 +1,14 @@
 * {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 header {
-    background-image: url(../../img/fundo-pintado-de-cinza_53876-94041.avif);
+    /* background-image: url(../../img/background3.jpg); */
     height: 100vh;
     overflow: hidden;
     background-size: cover;
+    background-color: #001D46;
 }
 
 #header-menu {
@@ -45,7 +46,7 @@ header {
     margin: 10px;
 }
 
-a {
+.header-item a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -66,8 +67,9 @@ a {
 }
 
 #header-section {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 100px);
     display: flex;
+    overflow: hidden;
 }
 
 #header-section-description {
@@ -76,10 +78,29 @@ a {
     overflow: hidden;
     height: 100%;
     margin-left: 16px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h1 {
     color: white;
+    font-size: 3rem;
+}
+
+h5 {
+    color: white;
+}
+
+#header-section-description a {
+    border: 3px solid white;
+    padding: 20px;
+    width: 20vw;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 #Red {
@@ -98,5 +119,93 @@ h1 {
 
 main {
     background-color: white;
+    padding: 50px;
 }
+
+#categories {
+    background-color: #001D46;
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+#categories a {
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+#categories a:hover {
+    background-color: rgb(173, 173, 173);
+}
+
+#discounts-text {
+    margin-top: 30px;
+    background-color: #001D46;
+    padding: 10px;
+    display: flex;
+}
+
+#discounts-text h4 {
+    color: white
+}
+
+#discounts-products {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card {
+    border-radius: 5px;
+    width: 23%;
+    box-shadow: 0 4px 8px 0 rgba(0, 29, 70, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-img {
+    width: 100%;
+}
+
+.discount {
+    width: 100%;
+    background-color: #001D46;
+}
+
+.span-discount {
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px
+}
+
+.card-body {
+    padding: 16px
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.product-discount-price {
+    color: #228b22;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+}
+
+.price-options {
+    font-size: 15px
+}
+
+
 
