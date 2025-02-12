@@ -15,13 +15,16 @@
             <ul class="navbar-ul">
                 <li id="main-item"><span id="rbr">RBR</span><span id="store">Store</span></li>
             </ul>
+            <form id="search-form">
+                <input id="search-input" type="text" placeholder="O que você está procurando?">
+            </form>
             <ul id="navbar-main" class="navbar-ul">
                 <li class="header-item"><a href="">Home</a></li>
                 <li class="header-item"><a href="">About Us</a></li>
                 <li class="header-item"><a href="">Feature</a></li>
                 <li class="header-item"><a href="">Blog</a></li>
-                <li class="header-item"><a href="">Contact Us</a></li>
-                <li class="header-item"><button>Log in</button></li>
+                <li class="header-item"><a href="login.html"><i class="fa-solid fa-user fa-xl" style="color: #ffffff;"></i></a></li>
+                <li class="header-item"><a href=""><i class="fa-solid fa-cart-shopping fa-xl" style="color: #ffffff;"></i></a></li>
             </ul>
         </nav>
         <section id="header-section">
@@ -65,7 +68,7 @@
                 </div>
             </div>
             <div class="product-discount-card">
-                <i class="fa-solid fa-clock fa-2xl" style="color: #001d46; position: absolute; margin-left: 15px; margin-top: 30px;"></i>
+                <i class="fa-solid fa-clock fa-2xl" style="color: #001d46; position: absolute; margin-left: 15px; margin-top: 30px; z-index: 1;"></i>
                 <img class="product-img" src="../../img/shirt2.webp">
                 <div class="discount">
                     <span class="span-discount">-33% OFF</span>
@@ -78,7 +81,7 @@
                 </div>
             </div>
             <div class="product-discount-card">
-                <i class="fa-solid fa-clock fa-2xl" style="color: #001d46; position: absolute; margin-left: 15px; margin-top: 30px;"></i>
+                <i class="fa-solid fa-clock fa-2xl" style="color: #001d46; position: absolute; margin-left: 15px; margin-top: 30px; z-index: 1;"></i>
                 <img class="product-img" src="../../img/miniature.jpg">
                 <div class="discount">
                     <span class="span-discount">-11% OFF</span>
@@ -175,6 +178,22 @@
                 </div>
             </div>
         </section>
+        <section id="special-offer">
+
+        </section>
+        <section id="text-releases">
+            <h2>
+                Coleções Exclusivas
+            </h2>
+        </section>
+        <section id="driver-collections">
+            <div class="driver-div">
+                <a href=""><img class="driver-img" src="../../img/testdriver1.jpg"></a>
+            </div>
+            <div class="driver-div">
+                <a href=""><img class="driver-img" src="../../img/testdriver2.jpg"></a>
+            </div>
+        </section>
     </main>
     <footer>
         <section id="advantages">
@@ -204,33 +223,41 @@
         </section>
         <section id="footer-information">
             <ul class="information-ul">
-                <li class="info-item"><span id="rbr">RBR</span><span id="store">Store</span></li>
-                <li class="info-item"><span id="info-description">Somos apaixonados pela Red Bull Racing e por uma vida estilosa e buscamos transmitir isso por nossos produtos</span></li>
+                <li class="info-title"><span id="rbr">RBR</span><span id="store">Store</span></li>
+                <li class="info-item"><span id="info-description">Somos apaixonados pela Red Bull Racing e por uma vida estilosa e buscamos transmitir isso por nossos produtos. </span></li>
             </ul>
             <ul class="information-ul">
-                <li class="info-item"><a href="AAA">Teste</a></li>
-                <li class="info-item"><a href="AAA"></a>Vamos</li>
-                <li class="info-item"><a href="AAA"></a>Vamos</li>
-                <li class="info-item"><a href="AAA"></a>Vamos</li>
-                <li class="info-item"><a href="AAA"></a>Vamos</li>
-                <li class="info-item"><a href="AAA"></a>Vamos</li>
+                <li class="info-title">Contato</li>
+                <ul id="contact-ul">
+                    <li class="info-item"><a href="AAA"><i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i></a></li>
+                    <li class="info-item"><a href="AAA"><i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i> </a></li>
+                    <li class="info-item"><a href="AAA"><i class="fa-solid fa-mobile-screen fa-xl" style="color: #ffffff;"></i> </a></li>
+                    <li class="info-item"><a href="AAA"><i class="fa-regular fa-envelope fa-2xl" style="color: #ffffff;"></i></a></li>         
+                </ul>
+                <form>
+                    
+                    <input type="text" placeholder="E-mail">
+                </form>
             </ul>
             <ul class="information-ul">
-                <li class="info-item"><a href="AAA">Teste</a></li>
-                <li class="info-item"><a href="AAA"></a>Vamos</li>
-                <li class="info-item"><a href="AAA"></a>Vamos</li>
-                <li class="info-item"><a href="AAA"></a>Vamos</li>
-                <li class="info-item"><a href="AAA"></a>Vamos</li>
-                <li class="info-item"><a href="AAA"></a>Vamos</li>
+                <li class="info-title">Ajuda</li>
+                <li class="info-item"><a href="AAA">Trocas e Devoluções</a></li>
+                <li class="info-item"><a href="AAA">Entregas</a></li>
+                <li class="info-item"><a href="AAA">Pagamentos</a></li>
+                <li class="info-item"><a href="AAA">Cancelamentos</a></li>
+                <li class="info-item"><a href="AAA"></a></li>
             </ul>
             <ul class="information-ul">
-                <li class="info-item"><a href="AAA">Teste</a></li>
+                <li class="info-title">Receba nossas ofertas no E-mail</li>
                 <li class="info-item"><a href="AAA"></a>Vamos</li>
                 <li class="info-item"><a href="AAA"></a>Vamos</li>
                 <li class="info-item"><a href="AAA"></a>Vamos</li>
                 <li class="info-item"><a href="AAA"></a>Vamos</li>
                 <li class="info-item"><a href="AAA"></a>Vamos</li>
             </ul>
+        </section>
+        <section id="about">
+            <h4>&copy; 2025 - Gustavo Santos Schneider</h4>
         </section>
     </footer>
     <script src="https://kit.fontawesome.com/15c8bda6b4.js" crossorigin="anonymous"></script>
