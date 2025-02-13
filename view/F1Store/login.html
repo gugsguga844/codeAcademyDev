@@ -7,8 +7,55 @@
     <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
-    <figure>
-        <video src="../../videos/Redbull F1 team Edit.mp4" controls></video>
-    </figure>
+    <header>
+        <nav id="header-menu">
+            <ul class="navbar-ul">
+                <li id="main-item"><span id="rbr">RBR</span><span id="store">Store</span></li>
+            </ul>
+            <form id="search-form">
+                <input id="search-input" type="text" placeholder="O que você está procurando?">
+            </form>
+            <ul id="navbar-main" class="navbar-ul">
+                <li class="header-item"><a href="index.html">Home</a></li>
+                <li class="header-item"><a href="">About Us</a></li>
+                <li class="header-item"><a href="">Feature</a></li>
+                <li class="header-item"><a href="">Blog</a></li>
+                <li class="header-item"><a href="login.html"><i class="fa-solid fa-user fa-xl" style="color: #ffffff;"></i></a></li>
+                <li class="header-item"><a href=""><i class="fa-solid fa-cart-shopping fa-xl" style="color: #ffffff;"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form-section">
+            <div id="halfOne" class="half">
+
+            </div>
+            <div id="halfTwo" class="half">
+                <h1> Login </h1>
+
+                <ul class="login-ul">
+                    <li class="icon-li">
+                        <i class="fa-brands fa-google fa-2xl"></i>
+                    </li>
+                    <li class="icon-li">
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                    </li>
+                    <li class="icon-li">
+                        <i class="fa-brands fa-twitter fa-2xl"></i>
+                    </li>
+                </ul>
+
+                <form id="login-form">
+                    <input class="login-form-input" id="username" name="username" type="text" placeholder="&#xf406; Usuário">
+                    <input class="login-form-input" id="password" name="password" type="password" placeholder="&#xf084; Senha">
+                    <label for="remember">
+                        <input name="remember" id="remember" type="checkbox">
+                         Mantenha-me conectado
+                    </label>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/15c8bda6b4.js" crossorigin="anonymous"></script>
 </body>
 </html>
