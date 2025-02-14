@@ -28,10 +28,12 @@
     <main>
         <section class="form-section">
             <div id="halfOne" class="half">
+                <h1> Novo por aqui?</h1>
 
+                <a id="register-id" href="register.html">Cadastre-se</a>
             </div>
             <div id="halfTwo" class="half">
-                <h1> Login </h1>
+                <h1> Acesse sua Conta </h1>
 
                 <ul class="login-ul">
                     <li class="icon-li">
@@ -46,12 +48,17 @@
                 </ul>
 
                 <form id="login-form">
-                    <input class="login-form-input" id="username" name="username" type="text" placeholder="&#xf406; Usuário">
-                    <input class="login-form-input" id="password" name="password" type="password" placeholder="&#xf084; Senha">
-                    <label for="remember">
-                        <input name="remember" id="remember" type="checkbox">
-                        <span style="margin-left: 10px;">Mantenha-me conectado<span>
-                    </label>
+                    <input class="login-form-input" id="username" name="username" type="text" placeholder="&#xf406; Usuário" autofocus/>
+                    <input class="login-form-input" id="password" name="password" type="password" placeholder="&#xf084; Senha" />
+                    <div class="login-optionals">
+                        <div id="login-checkbox">
+                            <input name="remember" id="remember" type="checkbox" />
+                            <label for="remember">Lembrar-me</label>
+                        </div>
+                        <a class="form-a" href="">Esqueci minha Senha</a>
+                    </div>
+
+                    <button id="join-button" type="submit">Entrar</button>
                 </form>
             </div>
         </section>

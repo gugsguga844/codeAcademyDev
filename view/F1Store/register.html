@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <header>
+        <nav id="header-menu">
+            <ul class="navbar-ul">
+                <li id="main-item"><span id="rbr">RBR</span><span id="store">Store</span></li>
+            </ul>
+            <form id="search-form">
+                <input id="search-input" type="text" placeholder="O que você está procurando?">
+            </form>
+            <ul id="navbar-main" class="navbar-ul">
+                <li class="header-item"><a href="index.html">Home</a></li>
+                <li class="header-item"><a href="">About Us</a></li>
+                <li class="header-item"><a href="">Feature</a></li>
+                <li class="header-item"><a href="">Blog</a></li>
+                <li class="header-item"><a href="login.html"><i class="fa-solid fa-user fa-xl" style="color: #ffffff;"></i></a></li>
+                <li class="header-item"><a href=""><i class="fa-solid fa-cart-shopping fa-xl" style="color: #ffffff;"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form-section">
+            <div id="halfOne" class="half">
+                <h1> Cadastre-se gratuitamente </h1>
+                
+                <form id="register-form">
+                    <label for="name">Nome Completo:</label>
+                    <input class="name register-form-input" id="name" type="text" autofocus>
+                    
+                    <div class="side-by-side">
+                        <div class="input-label">
+                            <label for="username">Nome de Usuário</label>
+                            <input class="username register-form-input input-half" id="name" type="text">
+                        </div>
+                        <div class="input-label">
+                            <label for="phone">Telefone</label>
+                            <input class="phone register-form-input" id="name" type="text">
+                        </div>
+                    </div>
+
+                    <label for="email">Endereço de e-mail</label>
+                    <input class="email register-form-input" id="email" type="email"/>
+                    
+                    <div class="side-by-side">
+                        <div class="input-label">
+                            <label for="password">Senha</label>
+                            <input class="password register-form-input input-half" id="name" type="password">
+                        </div>
+                        <div class="input-label">
+                            <label for="conf-password">Repita sua Senha</label>
+                            <input class="conf-password register-form-input" id="name" type="password">
+                        </div>
+                    </div>
+
+                    <button id="register-button" type="submit">Cadastrar</button>
+                </form>
+            </div>
+            <div id="halfTwo" class="half">
+                <h1> Já se cadastrou? </h1>
+                <a id="login-id" href="login.html">Fazer Login</a>
+            </div>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/15c8bda6b4.js" crossorigin="anonymous"></script>
+</body>
+</html>

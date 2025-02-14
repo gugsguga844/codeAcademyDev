@@ -1,6 +1,7 @@
 :root {
     --main-color: #570000;
     --icon-color: #570000;
+    --font-color: black;
 }
 
 * {
@@ -107,40 +108,107 @@ main {
 
 #halfOne {
     width: 65%;
-    background-color: var(--main-color);
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    padding: 50px;
 }
 
 #halfOne h1 {
-    color: white;
-    font-size: 3rem;
+    color: var(--font-color);
+    font-size: 2.2rem;
+    margin-bottom: 10px;
 }
 
-#register-id {
+
+label {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    margin-top: 20px;;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.register-form-input {
+    background-color: #e2e2e2;
+    padding: 10px;
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+    color: black;
+    margin-top: 10px;
+    border-color: transparent;
+}
+
+
+.register-form-input:focus {
+    outline: 2px solid red;
+    padding: 10px;
+    padding: 15px;
+}
+
+.side-by-side {
+    display: flex;
+}
+
+.input-label {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.input-half {
+    margin-right: 20px;
+}
+
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#register-button {
+    background-color: var(--main-color);
+    width: 100%;
     color: white;
-    text-decoration: none;
-    border: 3px solid white;
-    border-radius: 100px;;
-    padding: 20px 180px;
-    font-weight: bold;    
+    border-radius: 100px;
+    padding: 15px;
+    align-self: center;
+    margin-top: 20px;
+    margin: 30px 15px 0px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#register-button:hover {
+    background-color: #730000;
 }
 
 #halfTwo {
     width: 35%;
-    background-color: #fff;
+    background-color: var();
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 50px;
 }
 
 #halfTwo h1 {
-    color: var(--main-color);
+    color: white;
     font-size: 2rem;
+}
+
+#login-id {
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 100px;;
+    padding: 20px 100px;
+    font-weight: bold;    
 }
 
 .login-ul {
@@ -154,41 +222,8 @@ main {
     margin: 15px;
 }
 
-label {
-    color: black;
-    font-weight: bold;
-    margin-left: 5px;
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 i {
     color: var(--icon-color);
-}
-
-#login-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-
-.login-form-input {
-    background-color: #e2e2e2;
-    padding: 15px;
-    font-family: 'Helvetica', FontAwesome, sans-serif;
-    color: black;
-    margin: 15px;
-    border: none;
-}
-
-
-.login-form-input:focus {
-    outline: none;
-    padding: 10px;
-    padding: 15px;
 }
 
 .login-optionals {
@@ -206,20 +241,4 @@ i {
     color: var(--main-color)
 }
 
-#join-button {
-    background-color: var(--main-color);
-    width: 100%;
-    color: white;
-    border-radius: 100px;
-    padding: 15px;
-    align-self: center;
-    margin-top: 20px;
-    margin: 30px 15px 0px 15px;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-}
 
-#join-button:hover {
-    background-color: #730000;
-}
