@@ -1,11 +1,12 @@
 :root {
-    --main-color: #570000;
+    --main-color: #050047;
 }
 
-* {
+*, html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
+    /* qualquer coisa chrome://flags/#smooth-scrolling */
 }
 
 header {
@@ -17,15 +18,18 @@ header {
 }
 
 #header-menu {
+    width: 100%;
     height: 80px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 2rem;
-    padding-left: 2rem;
     font-weight: bold;
-    /* background-color: var(--main-color); */
+    position: fixed;
+    background-color: var(--main-color);
+    z-index: 9999;
+    padding: 16px 32px;
+    box-sizing: border-box;
 }
 
 #main-item {
@@ -81,7 +85,7 @@ ul {
 }
 
 .header-item:hover {
-    border-bottom: 3px solid var(--main-color);
+    border-bottom: 3px solid yellow;
 }
 
 .header-item a {
@@ -94,6 +98,7 @@ ul {
     height: calc(100vh - 80px);
     display: flex;
     overflow: hidden;
+    margin-top: 80px;
 }
 
 #header-section-description {
@@ -149,6 +154,7 @@ h5 {
 #main {
     background-color: white;
     padding: 50px;
+    scroll-margin-top: 80px;
 }
 
 #categories {
